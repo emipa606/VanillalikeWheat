@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>Vanilla-like wheat (Continued)</name>
+  <packageId>Mlie.VanillalikeWheat</packageId>
+  <author>Dark_Inquisitor</author>
+  <url>https://github.com/emipa606/VanillalikeWheat</url>
+  <supportedVersions>
+    <li>1.0</li>
+    <li>1.1</li>
+    <li>1.2</li>
+    <li>1.3</li>
+  </supportedVersions>
+  <modDependenciesByVersion>
+    <v1.1>
+      <li>
+        <packageId>syrchalis.universalfermenter</packageId>
+        <displayName>[SYR] Universal Fermenter</displayName>
+        <steamWorkshopUrl>steam://url/CommunityFilePage/2073225100</steamWorkshopUrl>
+        <downloadUrl>https://github.com/Syrchalis/UniversalFermenter/releases/latest</downloadUrl>
+      </li>
+    </v1.1>
+    <v1.2>
+      <li>
+        <packageId>syrchalis.universalfermenter</packageId>
+        <displayName>[SYR] Universal Fermenter</displayName>
+        <steamWorkshopUrl>steam://url/CommunityFilePage/2073225100</steamWorkshopUrl>
+        <downloadUrl>https://github.com/Syrchalis/UniversalFermenter/releases/latest</downloadUrl>
+      </li>
+    </v1.2>
+    <v1.3>
+      <li>
+        <packageId>syrchalis.processor.framework</packageId>
+        <displayName>[SYR] Processor Framework</displayName>
+        <steamWorkshopUrl>steam://url/CommunityFilePage/2633514537</steamWorkshopUrl>
+        <downloadUrl>https://github.com/Syrchalis/ProcessorFramework/releases/latest</downloadUrl>
+      </li>
+    </v1.3>
+  </modDependenciesByVersion>
+  <loadAfter />
+  <description>[img]https://i.imgur.com/buuPQel.png[/img]
+Update of Dark_Inquisitors mod
+https://steamcommunity.com/sharedfiles/filedetails/?id=1522917562
+Based on the 1.1 version by Paladin
+https://steamcommunity.com/sharedfiles/filedetails/?id=2020443885
+
+- Now uses the [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2633514537][SYR] Processor Framework[/url] instead.
+
+--
+1.1 Additions
+Updated to 1.1: Paladin
+Changes in 1.1:
+Idea from Plurples.
+Whet grow time 9.8 - 12 days.
+OptimalityOffset: Hardtack: -5 === 40 (still lower then jelly/berries/pemmican but better then nutrient paste)
+Bread: -2 === 14 (2 less then simple meals, pawns won't walk far to get simple meal instead of bread)
+Also fixes hopper bug.
+
+[img]https://i.imgur.com/pufA0kM.png[/img]
+
+[table]
+    [tr]
+        [td][url=https://invite.gg/Mlie][img]https://i.imgur.com/zdzzBrc.png[/img][/url][/td]
+        [td][url=https://github.com/emipa606/VanillalikeWheat][img]https://i.imgur.com/kTkpTOE.png[/img][/url][/td]
+    [/tr]
+[/table]
+	
+[img]https://i.imgur.com/Z4GOv8H.png[/img]
+A mod that adds wheat plant, its processing chain and some additional goods made out of flour.
+
+[h1][i]Non-workshop and legacy versions available on [/i][url=https://ludeon.com/forums/index.php?topic=30920.msg316239#msg316239][b][i]my forum thread![/i][/b][/url][/h1]
+
+
+[h1]Possible compability issues[/h1]
+For the time being, seems like this mod isn't compatible with other mods using universal fermenter (Blueberries mod for example) and doesn't work well with other big mods that mess with food/crops and add similiar items (such as Vegetable Garden).
+
+[h1]Short description of processing chain:[/h1]
+- Research agriculture and wheat processing;
+- Grow wheat and process it to hay and flour;
+- Use flour to make regular meals, hardtack, bread, or even cakes!
+
+[h1]What is it good for, really?[/h1]
+- Wheat is processed to flour AND hay, so it can feed both your colonists and animals;
+- Flour is extremely space efficient in terms of storage (stacks of 150);
+- Unrefrigerated flour spoils in 1,5 year
+
+This mod also includes two new animal beds and hay rack which allows you to dry hay in order to get straw which never spoils, just like kibble!
+
+
+
+[h1]Additional info:[/h1]
+Mod-added buildings:
+- milling stone,
+- milling machine (both for wheat  flour and hay processing),
+- fueled oven,
+- electric oven (both for baking mod foodstuffs),
+- hay rack (for drying hay into straw),
+- straw animal nest,
+- straw animal bed (both are additional animal beds).
+
+Mod-added plants:
+- wheat (growable plant).
+
+Mod-added items:
+- wheat (plant matter),
+- flour (raw food - cannot be eaten raw, efficient to storage),
+- straw (hay that doesn't spoil),
+- bread (cheap to produce, long-lasting simple meal),
+- hardtack (very cheap, extremly long-lasting, unpleasant to eat),
+- cake (expensive to produce, but gives mood boost and provides recreation (Gluttonous)).
+
+
+
+This mod uses Universal Fermenter mod, originally written by Kubouch, updated to B19 by Syrchalis.
+
+[img]https://i.imgur.com/PwoNOj4.png[/img]
+[list]
+[*] See if the the error persists if you just have this mod and its requirements active.
+[*] If not, try adding your other mods until it happens again.
+[*] Post your error-log using [url=https://steamcommunity.com/workshop/filedetails/?id=818773962]HugsLib[/url] and command Ctrl+F12
+[*] For best support, please use the Discord-channel for error-reporting.
+[*] Do not report errors by making a discussion-thread, I get no notification of that.
+[*] If you have the solution for a problem, please post it to the GitHub repository.
+[/list]</description>
+</ModMetaData>

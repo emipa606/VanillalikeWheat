@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingCategoryDef>
+    <defName>VLW_CategoryProcessed</defName>
+    <label>processed vegeterian</label>
+    <parent>PlantFoodRaw</parent>
+    <iconPath>Things/UI/flour_ui</iconPath>
+  </ThingCategoryDef>
+</Defs>

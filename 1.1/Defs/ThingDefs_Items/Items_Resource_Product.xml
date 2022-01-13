@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef ParentName="RoughPlantBase">
+    <defName>Flour</defName>
+    <label>flour</label>
+    <description>Flour is used to prepare many different meals and can be stored for very long periods of time, but cannot be eaten raw. Due to its nature, it can be stored very efficiently.</description>
+    <stackLimit>150</stackLimit>
+    <graphicData>
+      <texPath>Things/Flour</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+      <drawSize>(1.1,1.1)</drawSize>
+    </graphicData>
+    <statBases>
+      <MarketValue>1.2</MarketValue>
+    </statBases>
+    <comps>
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>90</daysToRotStart>
+        <rotDestroys>true</rotDestroys>
+      </li>
+    </comps>
+    <thingCategories>
+      <li>VLW_CategoryProcessed</li>
+    </thingCategories>
+    <ingestible>
+      <preferability>DesperateOnly</preferability>
+      <foodType>Meal</foodType>
+      <tasteThought>AteRawFood</tasteThought>
+      <ingestEffect>EatVegetarian</ingestEffect>
+      <ingestSound>Meal_Eat</ingestSound>
+      <optimalityOffsetHumanlikes>-4</optimalityOffsetHumanlikes>
+    </ingestible>
+    <socialPropernessMatters>true</socialPropernessMatters>
+  </ThingDef>
+</Defs>

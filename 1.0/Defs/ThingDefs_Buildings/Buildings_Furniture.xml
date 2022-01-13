@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef ParentName="FurnitureBase">
+    <defName>VLW_AnimalBedNest</defName>
+    <thingClass>Building_Bed</thingClass>
+    <label>straw animal nest</label>
+    <description>Straw nest for animals to sleep in. Fits smaller animals like chickens, cats, or small dogs.</description>
+    <rotatable>true</rotatable>
+    <fillPercent>0.10</fillPercent>
+    <pathCost>30</pathCost>
+    <passability>PassThroughOnly</passability>
+    <canOverlapZones>false</canOverlapZones>
+    <graphicData>
+      <texPath>Things/Buildings/Nest/Nest</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <drawSize>1.6</drawSize>
+    </graphicData>
+    <castEdgeShadows>false</castEdgeShadows>
+    <costList>
+      <Straw>20</Straw>
+    </costList>
+    <building>
+      <bed_humanlike>false</bed_humanlike>
+      <bed_maxBodySize>0.55</bed_maxBodySize>
+      <bed_showSleeperBody>true</bed_showSleeperBody>
+      <bed_healPerDay>3</bed_healPerDay>
+    </building>
+    <altitudeLayer>Building</altitudeLayer>
+    <statBases>
+      <MaxHitPoints>40</MaxHitPoints>
+      <Flammability>1.5</Flammability>
+      <WorkToBuild>100</WorkToBuild>
+      <Mass>1</Mass>
+      <BedRestEffectiveness>0.90</BedRestEffectiveness>
+      <Comfort>0.55</Comfort>
+      <ImmunityGainSpeedFactor>1.05</ImmunityGainSpeedFactor>
+      <SurgerySuccessChanceFactor>0.9</SurgerySuccessChanceFactor>
+    </statBases>
+    <comps>
+      <li Class="CompProperties_RoomIdentifier">
+        <roomStat>Impressiveness</roomStat>
+      </li>
+    </comps>
+    <uiIconScale>1.0</uiIconScale>
+  </ThingDef>
+  <ThingDef ParentName="FurnitureBase">
+    <defName>VLW_AnimalBedStraw</defName>
+    <thingClass>Building_Bed</thingClass>
+    <label>straw animal bed</label>
+    <description>Straw bed for animals to sleep on. Fits any animal.</description>
+    <rotatable>true</rotatable>
+    <fillPercent>0.15</fillPercent>
+    <pathCost>40</pathCost>
+    <passability>PassThroughOnly</passability>
+    <canOverlapZones>false</canOverlapZones>
+    <graphicData>
+      <texPath>Things/Buildings/Bed/Bed</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <drawSize>1.6</drawSize>
+    </graphicData>
+    <castEdgeShadows>false</castEdgeShadows>
+    <costList>
+      <Straw>35</Straw>
+    </costList>
+    <building>
+      <bed_humanlike>false</bed_humanlike>
+      <bed_showSleeperBody>true</bed_showSleeperBody>
+      <bed_healPerDay>3</bed_healPerDay>
+    </building>
+    <altitudeLayer>Building</altitudeLayer>
+    <statBases>
+      <MaxHitPoints>100</MaxHitPoints>
+      <Flammability>1.5</Flammability>
+      <WorkToBuild>200</WorkToBuild>
+      <Mass>3</Mass>
+      <BedRestEffectiveness>0.95</BedRestEffectiveness>
+      <Comfort>0.60</Comfort>
+      <ImmunityGainSpeedFactor>1.03</ImmunityGainSpeedFactor>
+      <SurgerySuccessChanceFactor>0.9</SurgerySuccessChanceFactor>
+    </statBases>
+    <comps>
+      <li Class="CompProperties_RoomIdentifier">
+        <roomStat>Impressiveness</roomStat>
+      </li>
+    </comps>
+  </ThingDef>
+</Defs>

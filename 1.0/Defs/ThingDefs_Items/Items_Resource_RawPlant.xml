@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef ParentName="RoughPlantBase">
+    <defName>RawWheat</defName>
+    <label>wheat</label>
+    <description>Raw wheat consisting of straw and grain. Needs to be processed.</description>
+    <soundInteract>Grain_Drop</soundInteract>
+    <soundDrop>Grain_Drop</soundDrop>
+    <stackLimit>75</stackLimit>
+    <graphicData>
+      <drawSize>(1.1,1.1)</drawSize>
+      <texPath>Things/WheatStack</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>2.0</MarketValue>
+    </statBases>
+    <comps>
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>30</daysToRotStart>
+        <rotDestroys>true</rotDestroys>
+      </li>
+    </comps>
+    <thingCategories>
+      <li>PlantMatter</li>
+    </thingCategories>
+    <ingestible>
+      <preferability>DesperateOnly</preferability>
+    </ingestible>
+  </ThingDef>
+  <ThingDef ParentName="RoughPlantBase">
+    <defName>Straw</defName>
+    <label>straw</label>
+    <description>Dried stalks of grain, used especially as fodder, harvested and compacted for storage. Straw is good animal feed, but inedible for humans.</description>
+    <stackLimit>200</stackLimit>
+    <graphicData>
+      <texPath>Things/Straw</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>0.7</MarketValue>
+      <Mass>0.010</Mass>
+      <Flammability>1.8</Flammability>
+    </statBases>
+    <thingCategories>
+      <li>Foods</li>
+    </thingCategories>
+    <ingestible>
+      <optimalityOffsetFeedingAnimals>6</optimalityOffsetFeedingAnimals>
+    </ingestible>
+  </ThingDef>
+</Defs>

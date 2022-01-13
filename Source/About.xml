@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>Vanilla-like wheat 1.0.0</name>
+  <author>Dark_Inquisitor</author>
+  <targetVersion>1.0.2059</targetVersion>
+  <url>https://ludeon.com/forums/index.php?topic=30920.0</url>
+  <description>
+A mod that adds wheat plant, its processing chain and some additional goods made out of flour.
+
+Short description of processing chain:
+- Research agriculture and wheat processing;
+- Grow wheat and process it to hay and flour;
+- Use flour to make regular meals, hardtack, bread, or even cakes!
+
+This mod also includes two new animal beds and hay rack which allows you to dry hay in order to get straw which never spoils, just like kibble!
+
+
+
+Additional info:
+Mod-added buildings:
+- milling stone,
+- milling machine (both for wheat &gt; flour and hay processing),
+- fueled oven,
+- electric oven (both for baking mod foodstuffs),
+- hay rack (for drying hay into straw),
+- straw animal nest,
+- straw animal bed (both are additional animal beds).
+
+Mod-added plants:
+- wheat (growable plant).
+
+Mod-added items:
+- wheat (plant matter),
+- flour (raw food - cannot be eaten raw, efficient to storage),
+- straw (hay that doesn't spoil),
+- bread (cheap to produce, long-lasting simple meal),
+- hardtack (very cheap, extremly long-lasting, unpleasant to eat),
+- cake (expensive to produce, but gives mood boost and provides recreation (Gluttonous)).
+
+
+
+This mod uses Universal Fermenter mod, originally written by Kubouch, updated to B19 by Syrchalis.
+	</description>
+</ModMetaData>

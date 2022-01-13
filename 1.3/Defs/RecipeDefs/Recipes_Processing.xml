@@ -1,0 +1,185 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <RecipeDef>
+    <defName>MakeOneFlourLowTech</defName>
+    <label>process one wheat</label>
+    <description>Wheat can be processed to produce flour and hay.</description>
+    <jobString>Processing wheat.</jobString>
+    <workAmount>50</workAmount>
+    <workSpeedStat>CookSpeed</workSpeedStat>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_Mill</soundWorking>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>RawWheat</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <products>
+      <Flour>1</Flour>
+      <Hay>1</Hay>
+    </products>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>RawWheat</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <workSkill>Cooking</workSkill>
+  </RecipeDef>
+  <RecipeDef>
+    <defName>MakeOneFlourHighTech</defName>
+    <label>process one wheat</label>
+    <description>Wheat can be processed to produce flour and hay.</description>
+    <jobString>Processing wheat.</jobString>
+    <workAmount>30</workAmount>
+    <workSpeedStat>CookSpeed</workSpeedStat>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_Smelt</soundWorking>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>RawWheat</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <products>
+      <Flour>1</Flour>
+      <Hay>1</Hay>
+    </products>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>RawWheat</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <workSkill>Cooking</workSkill>
+  </RecipeDef>
+  <!-- ========================================== -->
+  <RecipeDef>
+    <defName>MakeFlourLowTech</defName>
+    <label>process wheat</label>
+    <description>Wheat can be processed to produce flour and hay.</description>
+    <jobString>Processing wheat.</jobString>
+    <workAmount>600</workAmount>
+    <workSpeedStat>CookSpeed</workSpeedStat>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_Mill</soundWorking>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>RawWheat</li>
+          </thingDefs>
+        </filter>
+        <count>12</count>
+      </li>
+    </ingredients>
+    <products>
+      <Flour>14</Flour>
+      <Hay>12</Hay>
+    </products>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>RawWheat</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <workSkill>Cooking</workSkill>
+  </RecipeDef>
+  <RecipeDef>
+    <defName>MakeFlourHighTech</defName>
+    <label>process wheat</label>
+    <description>Wheat can be processed to produce flour and hay.</description>
+    <jobString>Processing wheat.</jobString>
+    <workAmount>450</workAmount>
+    <workSpeedStat>CookSpeed</workSpeedStat>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_Smelt</soundWorking>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>RawWheat</li>
+          </thingDefs>
+        </filter>
+        <count>18</count>
+      </li>
+    </ingredients>
+    <products>
+      <Flour>22</Flour>
+      <Hay>18</Hay>
+    </products>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>RawWheat</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <workSkill>Cooking</workSkill>
+  </RecipeDef>
+  <!-- ========================================== -->
+  <RecipeDef>
+    <defName>MakeBatchFlourLowTech</defName>
+    <label>process a batch of wheat</label>
+    <description>Wheat can be processed to produce flour and hay.</description>
+    <jobString>Processing wheat.</jobString>
+    <workAmount>1800</workAmount>
+    <workSpeedStat>CookSpeed</workSpeedStat>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_Mill</soundWorking>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>RawWheat</li>
+          </thingDefs>
+        </filter>
+        <count>36</count>
+      </li>
+    </ingredients>
+    <products>
+      <Flour>42</Flour>
+      <Hay>36</Hay>
+    </products>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>RawWheat</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <workSkill>Cooking</workSkill>
+  </RecipeDef>
+  <RecipeDef>
+    <defName>MakeBatchFlourHighTech</defName>
+    <label>process a batch of wheat</label>
+    <description>Wheat can be processed to produce flour and hay.</description>
+    <jobString>Processing wheat.</jobString>
+    <workAmount>1350</workAmount>
+    <workSpeedStat>CookSpeed</workSpeedStat>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_Smelt</soundWorking>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>RawWheat</li>
+          </thingDefs>
+        </filter>
+        <count>54</count>
+      </li>
+    </ingredients>
+    <products>
+      <Flour>66</Flour>
+      <Hay>54</Hay>
+    </products>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>RawWheat</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <workSkill>Cooking</workSkill>
+  </RecipeDef>
+</Defs>

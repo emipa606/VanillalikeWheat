@@ -1,0 +1,128 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef ParentName="OrganicProductBase">
+    <defName>VLW_Hardtack</defName>
+    <label>hardtack</label>
+    <description>Hardtack is a simple type of biscuit or cracker, made from flour, water, and sometimes salt. While inexpensive and long-lasting, it tastes really bland. Used for sustenance in the absence of perishable foods, commonly during long sea voyages, land migrations, and military campaigns.</description>
+    <thingClass>ThingWithComps</thingClass>
+    <thingCategories>
+      <li>Foods</li>
+    </thingCategories>
+    <graphicData>
+      <texPath>Things/Hardtack</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <socialPropernessMatters>true</socialPropernessMatters>
+    <statBases>
+      <MarketValue>1.1</MarketValue>
+      <Mass>0.014</Mass>
+      <Flammability>0.8</Flammability>
+      <WorkToMake>400</WorkToMake>
+      <DeteriorationRate>2</DeteriorationRate>
+      <Nutrition>0.05</Nutrition>
+    </statBases>
+    <ingestible>
+      <foodType>Meal</foodType>
+      <preferability>MealSimple</preferability>
+      <tasteThought>VLW_AteBlandMeal</tasteThought>
+      <ingestEffect>EatVegetarian</ingestEffect>
+      <ingestSound>Meal_Eat</ingestSound>
+      <optimalityOffsetHumanlikes>40</optimalityOffsetHumanlikes>
+    </ingestible>
+    <comps>
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>150</daysToRotStart>
+        <rotDestroys>true</rotDestroys>
+      </li>
+      <li Class="CompProperties_Ingredients" />
+      <li Class="CompProperties_FoodPoisonable" />
+    </comps>
+  </ThingDef>
+  <ThoughtDef>
+    <defName>VLW_AteBlandMeal</defName>
+    <durationDays>1</durationDays>
+    <stages>
+      <li>
+        <label>ate bland meal</label>
+        <description>I had to eat a bland, tasteless meal. I know it keeps you alive, but it's not pleasant to eat.</description>
+        <baseMoodEffect>-2</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+  <ThingDef ParentName="MealBase">
+    <defName>VLW_Bread</defName>
+    <label>bread</label>
+    <description>Bread is prepared from a dough of flour and water, usually by baking. Throughout recorded history it has been a prominent food in large parts of the world and is one of the oldest man-made foods.</description>
+    <graphicData>
+      <texPath>Things/Bread</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <stackLimit>15</stackLimit>
+    <statBases>
+      <MarketValue>16</MarketValue>
+      <Mass>0.4</Mass>
+      <Nutrition>0.9</Nutrition>
+      <WorkToMake>400</WorkToMake>
+    </statBases>
+    <ingestible>
+      <preferability>MealSimple</preferability>
+      <optimalityOffsetHumanlikes>12</optimalityOffsetHumanlikes>
+      <optimalityOffsetFeedingAnimals>-8</optimalityOffsetFeedingAnimals>
+      <ingestEffect>EatVegetarian</ingestEffect>
+      <ingestSound>Meal_Eat</ingestSound>
+    </ingestible>
+    <comps>
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>8</daysToRotStart>
+        <rotDestroys>true</rotDestroys>
+      </li>
+    </comps>
+    <tradeability>Buyable</tradeability>
+  </ThingDef>
+  <ThingDef ParentName="ResourceBase">
+    <defName>VLW_Cake</defName>
+    <label>cake</label>
+    <description>Cake is a form of sweet dessert that is typically baked. In its oldest forms, cakes were modifications of breads; typical cake ingredients are flour, eggs, a liquid and leavening agents, such as baking soda or baking powder.
+Common additional ingredients and flavourings include cocoa and extracts such as vanilla.</description>
+    <graphicData>
+      <texPath>Things/Cake</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+      <drawSize>1.1</drawSize>
+    </graphicData>
+    <soundInteract>Standard_Drop</soundInteract>
+    <soundDrop>Standard_Drop</soundDrop>
+    <socialPropernessMatters>true</socialPropernessMatters>
+    <statBases>
+      <MarketValue>7</MarketValue>
+      <Mass>0.1</Mass>
+      <Flammability>1.0</Flammability>
+      <Nutrition>0.2</Nutrition>
+      <DeteriorationRate>20</DeteriorationRate>
+      <WorkToMake>800</WorkToMake>
+    </statBases>
+    <stackLimit>50</stackLimit>
+    <thingCategories>
+      <li>Foods</li>
+    </thingCategories>
+    <ingestible>
+      <preferability>DesperateOnly</preferability>
+      <foodType>Processed</foodType>
+      <joy>0.15</joy>
+      <joyKind>Gluttonous</joyKind>
+      <maxNumToIngestAtOnce>3</maxNumToIngestAtOnce>
+      <ingestSound>Meal_Eat</ingestSound>
+      <tasteThought>VLW_AteYummyCake</tasteThought>
+    </ingestible>
+  </ThingDef>
+  <ThoughtDef>
+    <defName>VLW_AteYummyCake</defName>
+    <durationDays>0.5</durationDays>
+    <stages>
+      <li>
+        <label>ate cake</label>
+        <description>That cake was delicious!</description>
+        <baseMoodEffect>5</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+</Defs>
