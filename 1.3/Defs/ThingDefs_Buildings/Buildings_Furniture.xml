@@ -16,6 +16,7 @@
       <drawSize>1.6</drawSize>
     </graphicData>
     <castEdgeShadows>false</castEdgeShadows>
+    <drawGUIOverlay>true</drawGUIOverlay>
     <costList>
       <Straw>20</Straw>
     </costList>
@@ -37,6 +38,12 @@
       <SurgerySuccessChanceFactor>0.9</SurgerySuccessChanceFactor>
     </statBases>
     <uiIconScale>1.0</uiIconScale>
+    <comps>
+      <li Class="CompProperties_AssignableToPawn">
+        <drawAssignmentOverlay>false</drawAssignmentOverlay>
+        <compClass>CompAssignableToPawn_Bed</compClass>
+      </li>
+    </comps>
   </ThingDef>
   <ThingDef ParentName="FurnitureBase">
     <defName>VLW_AnimalBedStraw</defName>
@@ -73,5 +80,11 @@
       <ImmunityGainSpeedFactor>1.03</ImmunityGainSpeedFactor>
       <SurgerySuccessChanceFactor>0.9</SurgerySuccessChanceFactor>
     </statBases>
+    <comps>
+      <li Class="CompProperties_AssignableToPawn">
+        <drawAssignmentOverlay>false</drawAssignmentOverlay>
+        <compClass>CompAssignableToPawn_Bed</compClass>
+      </li>
+    </comps>
   </ThingDef>
 </Defs>
