@@ -1,0 +1,411 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- ==================== Milling ======================= -->
+  <ThingDef ParentName="BenchBase">
+    <defName>QuernLowTech</defName>
+    <label>milling stone</label>
+    <thingClass>Building_WorkTable</thingClass>
+    <description>Basic milling stone. Does not require electricity nor fuel to operate, but it takes long time to process wheat.</description>
+    <graphicData>
+      <texPath>Things/Buildings/Querns/QuernLowTech</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+      <drawSize>(1,1)</drawSize>
+      <damageData>
+        <cornerTL>Damage/Corner</cornerTL>
+        <cornerTR>Damage/Corner</cornerTR>
+        <cornerBL>Damage/Corner</cornerBL>
+        <cornerBR>Damage/Corner</cornerBR>
+      </damageData>
+    </graphicData>
+    <size>(1,1)</size>
+    <costList>
+      <WoodLog>30</WoodLog>
+    </costList>
+    <stuffCategories>
+      <li>Stony</li>
+    </stuffCategories>
+    <costStuffCount>40</costStuffCount>
+    <altitudeLayer>Building</altitudeLayer>
+    <fillPercent>0.5</fillPercent>
+    <useHitPoints>True</useHitPoints>
+    <researchPrerequisites>
+      <li>WheatFarming</li>
+    </researchPrerequisites>
+    <statBases>
+      <WorkToBuild>1000</WorkToBuild>
+      <MaxHitPoints>200</MaxHitPoints>
+      <Flammability>0.5</Flammability>
+      <Cleanliness>-10</Cleanliness>
+    </statBases>
+    <designationCategory>Production</designationCategory>
+    <passability>PassThroughOnly</passability>
+    <pathCost>70</pathCost>
+    <hasInteractionCell>True</hasInteractionCell>
+    <interactionCellOffset>(0,0,-1)</interactionCellOffset>
+    <surfaceType>Item</surfaceType>
+    <recipes>
+      <li>MakeOneFlourLowTech</li>
+      <li>MakeFlourLowTech</li>
+      <li>MakeBatchFlourLowTech</li>
+    </recipes>
+    <inspectorTabs>
+      <li>ITab_Bills</li>
+    </inspectorTabs>
+    <building>
+      <spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
+    </building>
+  </ThingDef>
+  <ThingDef ParentName="BenchBase">
+    <defName>QuernHighTech</defName>
+    <label>milling machine</label>
+    <thingClass>Building_WorkTable</thingClass>
+    <description>Electric variant of the milling stone. Require electricity to operate, but it takes a very short time to process wheat. Very efficeint.</description>
+    <castEdgeShadows>true</castEdgeShadows>
+    <staticSunShadowHeight>0.20</staticSunShadowHeight>
+    <graphicData>
+      <texPath>Things/Buildings/Querns/QuernHighTech</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <drawSize>(1,1)</drawSize>
+      <damageData>
+        <cornerTL>Damage/Corner</cornerTL>
+        <cornerTR>Damage/Corner</cornerTR>
+        <cornerBL>Damage/Corner</cornerBL>
+        <cornerBR>Damage/Corner</cornerBR>
+      </damageData>
+    </graphicData>
+    <costList>
+      <Steel>30</Steel>
+      <ComponentIndustrial>2</ComponentIndustrial>
+    </costList>
+    <constructEffect>ConstructMetal</constructEffect>
+    <altitudeLayer>Building</altitudeLayer>
+    <fillPercent>0.5</fillPercent>
+    <useHitPoints>True</useHitPoints>
+    <researchPrerequisites>
+      <li>AdvancedGrainMilling</li>
+    </researchPrerequisites>
+    <statBases>
+      <WorkToBuild>2000</WorkToBuild>
+      <MaxHitPoints>150</MaxHitPoints>
+      <Flammability>1.0</Flammability>
+      <Cleanliness>-6</Cleanliness>
+    </statBases>
+    <size>(1,1)</size>
+    <designationCategory>Production</designationCategory>
+    <passability>PassThroughOnly</passability>
+    <pathCost>75</pathCost>
+    <hasInteractionCell>True</hasInteractionCell>
+    <interactionCellOffset>(0,0,-1)</interactionCellOffset>
+    <surfaceType>Item</surfaceType>
+    <recipes>
+      <li>MakeOneFlourHighTech</li>
+      <li>MakeFlourHighTech</li>
+      <li>MakeBatchFlourHighTech</li>
+    </recipes>
+    <inspectorTabs>
+      <li>ITab_Bills</li>
+    </inspectorTabs>
+    <building>
+      <spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
+      <heatPerTickWhileWorking>0.05</heatPerTickWhileWorking>
+    </building>
+    <comps>
+      <li Class="CompProperties_Power">
+        <compClass>CompPowerTrader</compClass>
+        <shortCircuitInRain>true</shortCircuitInRain>
+        <basePowerConsumption>100</basePowerConsumption>
+      </li>
+      <li Class="CompProperties_Flickable" />
+      <li Class="CompProperties_Breakdownable" />
+    </comps>
+  </ThingDef>
+  <!-- ==================== Oven ======================= -->
+  <ThingDef ParentName="BenchBase">
+    <defName>VLW_FueledOven</defName>
+    <label>fueled oven</label>
+    <description>A wood-fueled oven for baking bread.</description>
+    <thingClass>Building_WorkTable_HeatPush</thingClass>
+    <graphicData>
+      <texPath>Things/Buildings/Oven/Fueled/Oven</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+      <drawSize>(1.15,1.15)</drawSize>
+      <damageData>
+        <cornerTL>Damage/Corner</cornerTL>
+        <cornerTR>Damage/Corner</cornerTR>
+        <cornerBL>Damage/Corner</cornerBL>
+        <cornerBR>Damage/Corner</cornerBR>
+      </damageData>
+    </graphicData>
+    <castEdgeShadows>true</castEdgeShadows>
+    <staticSunShadowHeight>0.30</staticSunShadowHeight>
+    <stuffCategories>
+      <li>Stony</li>
+    </stuffCategories>
+    <costStuffCount>80</costStuffCount>
+    <researchPrerequisites>
+      <li>WheatFarming</li>
+    </researchPrerequisites>
+    <terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
+    <altitudeLayer>Building</altitudeLayer>
+    <passability>PassThroughOnly</passability>
+    <fillPercent>0.5</fillPercent>
+    <pathCost>70</pathCost>
+    <useHitPoints>True</useHitPoints>
+    <statBases>
+      <WorkToBuild>1600</WorkToBuild>
+      <Mass>50</Mass>
+      <MaxHitPoints>200</MaxHitPoints>
+      <Flammability>0.3</Flammability>
+    </statBases>
+    <size>(1,1)</size>
+    <rotatable>true</rotatable>
+    <hasInteractionCell>True</hasInteractionCell>
+    <interactionCellOffset>(0,0,-1)</interactionCellOffset>
+    <surfaceType>Item</surfaceType>
+    <constructionSkillPrerequisite>3</constructionSkillPrerequisite>
+    <recipes>
+      <li>VLW_BakeHardtack</li>
+      <li>VLW_BakeBread</li>
+      <li>VLW_BakeCake</li>
+    </recipes>
+    <inspectorTabs>
+      <li>ITab_Bills</li>
+    </inspectorTabs>
+    <comps>
+      <li Class="CompProperties_Refuelable">
+        <fuelConsumptionRate>80.0</fuelConsumptionRate>
+        <fuelCapacity>50.0</fuelCapacity>
+        <fuelFilter>
+          <thingDefs>
+            <li>WoodLog</li>
+          </thingDefs>
+        </fuelFilter>
+        <consumeFuelOnlyWhenUsed>true</consumeFuelOnlyWhenUsed>
+      </li>
+      <li Class="CompProperties_HeatPusher">
+        <compClass>CompHeatPusherPowered</compClass>
+        <heatPerSecond>2</heatPerSecond>
+      </li>
+    </comps>
+    <building>
+      <isMealSource>true</isMealSource>
+      <spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
+      <heatPerTickWhileWorking>0.10</heatPerTickWhileWorking>
+    </building>
+    <designationCategory>Production</designationCategory>
+  </ThingDef>
+  <ThingDef ParentName="BenchBase">
+    <defName>VLW_ElectricOven</defName>
+    <label>electric oven</label>
+    <description>An electric oven for baking bread and cake.</description>
+    <thingClass>Building_WorkTable_HeatPush</thingClass>
+    <graphicData>
+      <texPath>Things/Buildings/Oven/Electric/Moven</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <drawSize>(1.23,1.23)</drawSize>
+      <damageData>
+        <cornerTL>Damage/Corner</cornerTL>
+        <cornerTR>Damage/Corner</cornerTR>
+        <cornerBL>Damage/Corner</cornerBL>
+        <cornerBR>Damage/Corner</cornerBR>
+      </damageData>
+    </graphicData>
+    <castEdgeShadows>true</castEdgeShadows>
+    <staticSunShadowHeight>0.30</staticSunShadowHeight>
+    <costList>
+      <Steel>50</Steel>
+      <ComponentIndustrial>1</ComponentIndustrial>
+    </costList>
+    <researchPrerequisites>
+      <li>AdvancedGrainMilling</li>
+    </researchPrerequisites>
+    <terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
+    <altitudeLayer>Building</altitudeLayer>
+    <passability>PassThroughOnly</passability>
+    <fillPercent>0.5</fillPercent>
+    <pathCost>70</pathCost>
+    <useHitPoints>True</useHitPoints>
+    <statBases>
+      <WorkToBuild>1500</WorkToBuild>
+      <Mass>30</Mass>
+      <MaxHitPoints>150</MaxHitPoints>
+      <Flammability>1.0</Flammability>
+    </statBases>
+    <size>(1,1)</size>
+    <rotatable>true</rotatable>
+    <hasInteractionCell>True</hasInteractionCell>
+    <interactionCellOffset>(0,0,-1)</interactionCellOffset>
+    <surfaceType>Item</surfaceType>
+    <constructionSkillPrerequisite>4</constructionSkillPrerequisite>
+    <uiIconScale>0.9</uiIconScale>
+    <recipes>
+      <li>VLW_BakeHardtack</li>
+      <li>VLW_BakeBread</li>
+      <li>VLW_BakeCake</li>
+    </recipes>
+    <inspectorTabs>
+      <li>ITab_Bills</li>
+    </inspectorTabs>
+    <comps>
+      <li Class="CompProperties_Power">
+        <compClass>CompPowerTrader</compClass>
+        <shortCircuitInRain>true</shortCircuitInRain>
+        <basePowerConsumption>180</basePowerConsumption>
+      </li>
+      <li Class="CompProperties_Flickable" />
+      <li Class="CompProperties_Breakdownable" />
+      <li Class="CompProperties_HeatPusher">
+        <compClass>CompHeatPusherPowered</compClass>
+        <heatPerSecond>1</heatPerSecond>
+      </li>
+    </comps>
+    <building>
+      <isMealSource>true</isMealSource>
+      <spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
+      <heatPerTickWhileWorking>0.10</heatPerTickWhileWorking>
+    </building>
+    <designationCategory>Production</designationCategory>
+  </ThingDef>
+  <!-->
+  <ThingDef ParentName="BuildingBase">
+    <defName>VLW_AutomaticOven</defName>
+    <label>auto oven</label>
+    <description>An electric oven for baking bread and cake.</description>
+    <thingClass>Building_WorkTable_HeatPush</thingClass>    
+    <graphicData>
+      <texPath>Things/Buildings/Oven/Electric/Moven</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>      
+      <drawSize>(1.23,1.23)</drawSize>
+      <damageData>
+        <cornerTL>Damage/Corner</cornerTL>
+        <cornerTR>Damage/Corner</cornerTR>
+        <cornerBL>Damage/Corner</cornerBL>
+        <cornerBR>Damage/Corner</cornerBR>
+      </damageData>
+    </graphicData>
+    <castEdgeShadows>true</castEdgeShadows>
+    <staticSunShadowHeight>0.30</staticSunShadowHeight> 
+    <costList>
+      <Steel>50</Steel>
+      <ComponentIndustrial>1</ComponentIndustrial>
+    </costList>   
+	  <researchPrerequisites>
+      <li>AdvancedGrainMilling</li>
+    </researchPrerequisites>    
+    <minifiedDef>MinifiedThing</minifiedDef>
+    <terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
+    <thingCategories>
+      <li>BuildingsProduction</li>
+    </thingCategories>
+    <altitudeLayer>Building</altitudeLayer>
+    <passability>PassThroughOnly</passability>
+    <fillPercent>0.5</fillPercent>
+    <pathCost>70</pathCost>
+    <statBases>
+      <WorkToBuild>1500</WorkToBuild>
+      <Mass>30</Mass>
+      <MaxHitPoints>150</MaxHitPoints>
+      <Flammability>1.0</Flammability>
+    </statBases>
+	  <size>(1,1)</size>   
+    <uiIconScale>0.9</uiIconScale>
+    <comps>
+      <li Class="CompProperties_Power">
+        <compClass>CompPowerTrader</compClass>
+        <shortCircuitInRain>true</shortCircuitInRain>
+        <basePowerConsumption>200</basePowerConsumption>
+      </li>
+      <li Class="CompProperties_Flickable"/>
+      <li Class="CompProperties_Breakdownable"/>        
+      <li Class="Kubouch.CompProperties_UniversalFermenter">
+        <products>
+          <li>
+            <thingDef>VLW_Bread</thingDef>
+            <ingredientFilter>
+                <thingDefs>
+                    <li>Flour</li>
+                </thingDefs>
+            </ingredientFilter>
+            <efficiency>0.1</efficiency>
+            <maxCapacity>90</maxCapacity>
+            <baseFermentationDuration>60000</baseFermentationDuration>
+            <temperatureIdeal>
+                <min>5</min>
+                <max>40</max>
+            </temperatureIdeal>
+            <temperatureSafe>
+                <min>-10</min>
+                <max>60</max>
+            </temperatureSafe>
+			      <graphSuffix>Working</graphSuffix>
+          </li>
+        </products>
+      </li>    
+    </comps>
+    <tickerType>Normal</tickerType>
+    <designationCategory>Production</designationCategory>
+    <rotatable>true</rotatable>
+  </ThingDef>
+-->
+  <!-- ==================== Rack ======================= -->
+  <ThingDef ParentName="BuildingBase">
+    <defName>HayRack</defName>
+    <label>hay rack</label>
+    <graphicData>
+      <texPath>Things/Buildings/Rack/Rack</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <drawSize>(3.5,1.5)</drawSize>
+      <damageData>
+        <cornerTL>Damage/Corner</cornerTL>
+        <cornerTR>Damage/Corner</cornerTR>
+        <cornerBL>Damage/Corner</cornerBL>
+        <cornerBR>Damage/Corner</cornerBR>
+      </damageData>
+    </graphicData>
+    <drawerType>MapMeshAndRealTime</drawerType>
+    <minifiedDef>MinifiedThing</minifiedDef>
+    <terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
+    <thingCategories>
+      <li>BuildingsProduction</li>
+    </thingCategories>
+    <altitudeLayer>Building</altitudeLayer>
+    <passability>PassThroughOnly</passability>
+    <fillPercent>0.5</fillPercent>
+    <pathCost>70</pathCost>
+    <statBases>
+      <WorkToBuild>400</WorkToBuild>
+      <Mass>20</Mass>
+      <MaxHitPoints>150</MaxHitPoints>
+      <Flammability>1.0</Flammability>
+    </statBases>
+    <description>A simple rack for drying hay into straw.</description>
+    <size>(3,1)</size>
+    <costList>
+      <WoodLog>20</WoodLog>
+    </costList>
+    <uiIconPath>Things/Buildings/Rack/RackHay_north</uiIconPath>
+    <uiIconScale>1.3</uiIconScale>
+    <comps>
+      <li Class="CompProperties_Forbiddable" />
+      <li Class="ProcessorFramework.CompProperties_Processor">
+        <capacity>100</capacity>
+        <independentProcesses>false</independentProcesses>
+        <parallelProcesses>false</parallelProcesses>
+        <dropIngredients>false</dropIngredients>
+        <showProductIcon>true</showProductIcon>
+        <barOffset>(0.0, -0.75)</barOffset>
+        <barScale>(1.0, 1.0)</barScale>
+        <colorCoded>false</colorCoded>
+        <processes>
+          <li>VLW_Straw_Process</li>
+        </processes>
+      </li>
+    </comps>
+    <tickerType>Rare</tickerType>
+    <designationCategory>Production</designationCategory>
+    <constructEffect>ConstructWood</constructEffect>
+    <rotatable>true</rotatable>
+  </ThingDef>
+</Defs>

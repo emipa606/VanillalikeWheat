@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ProcessorFramework.ProcessDef>
+    <defName>VLW_Straw_Process</defName>
+    <thingDef>Straw</thingDef>
+    <ingredientFilter>
+      <thingDefs>
+        <li>Hay</li>
+      </thingDefs>
+    </ingredientFilter>
+    <processDays>2.5</processDays>
+    <temperatureSafe>0~80.0</temperatureSafe>
+    <temperatureIdeal>20.0~60.0</temperatureIdeal>
+    <sunFactor>0.8~1.5</sunFactor>
+    <rainFactor>1.0~0.2</rainFactor>
+    <snowFactor>1.0~0.2</snowFactor>
+    <windFactor>0.9~1.2</windFactor>
+    <filledGraphicSuffix>Hay</filledGraphicSuffix>
+  </ProcessorFramework.ProcessDef>
+</Defs>

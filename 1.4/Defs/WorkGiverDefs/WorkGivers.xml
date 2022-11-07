@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <WorkGiverDef>
+    <defName>MillGrain</defName>
+    <label>process wheat</label>
+    <giverClass>WorkGiver_DoBill</giverClass>
+    <workType>Cooking</workType>
+    <priorityInType>31</priorityInType>
+    <fixedBillGiverDefs>
+      <li>QuernLowTech</li>
+      <li>QuernHighTech</li>
+    </fixedBillGiverDefs>
+    <verb>process</verb>
+    <gerund>processing</gerund>
+    <requiredCapacities>
+      <li>Manipulation</li>
+    </requiredCapacities>
+    <prioritizeSustains>true</prioritizeSustains>
+  </WorkGiverDef>
+  <WorkGiverDef>
+    <defName>VLW_DoBillsBake</defName>
+    <label>bake at oven</label>
+    <giverClass>WorkGiver_DoBill</giverClass>
+    <workType>Cooking</workType>
+    <priorityInType>95</priorityInType>
+    <fixedBillGiverDefs>
+      <li>VLW_FueledOven</li>
+      <li>VLW_ElectricOven</li>
+    </fixedBillGiverDefs>
+    <verb>bake</verb>
+    <gerund>baking</gerund>
+    <requiredCapacities>
+      <li>Manipulation</li>
+    </requiredCapacities>
+    <prioritizeSustains>true</prioritizeSustains>
+  </WorkGiverDef>
+</Defs>

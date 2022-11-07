@@ -8,7 +8,7 @@ Based on the 1.1 version by Paladin
 https://steamcommunity.com/sharedfiles/filedetails/?id=2020443885
 
 - Now uses the https://steamcommunity.com/sharedfiles/filedetails/?id=2633514537][SYR] Processor Framework instead.
-
+- Also try the https://steamcommunity.com/sharedfiles/filedetails/?id=2821020255]Pizza addon by Yamazaki
 --
 1.1 Additions
 Updated to 1.1: Paladin
@@ -86,5 +86,6 @@ This mod uses Universal Fermenter mod, originally written by Kubouch, updated to
 -  For best support, please use the Discord-channel for error-reporting.
 -  Do not report errors by making a discussion-thread, I get no notification of that.
 -  If you have the solution for a problem, please post it to the GitHub repository.
+
 
 
