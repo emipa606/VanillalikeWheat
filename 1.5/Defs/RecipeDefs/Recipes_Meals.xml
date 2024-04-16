@@ -1,0 +1,143 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <RecipeDef ParentName="CookMealBase">
+    <defName>VLW_BakeBread</defName>
+    <label>bake bread</label>
+    <description>Bake bread from flour.</description>
+    <jobString>Baking bread.</jobString>
+    <workSpeedStat>CookSpeed</workSpeedStat>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_CookMeal</soundWorking>
+    <allowMixingIngredients>true</allowMixingIngredients>
+    <ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass>
+    <ingredients Inherit="False">
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Flour</li>
+          </thingDefs>
+        </filter>
+        <count>0.45</count>
+      </li>
+    </ingredients>
+    <products>
+      <VLW_Bread>1</VLW_Bread>
+    </products>
+    <fixedIngredientFilter Inherit="False">
+      <thingDefs>
+        <li>Flour</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <skillRequirements>
+      <Cooking>6</Cooking>
+    </skillRequirements>
+    <researchPrerequisite>WheatFarming</researchPrerequisite>
+  </RecipeDef>
+  <RecipeDef ParentName="CookMealBase">
+    <defName>VLW_BakeCake</defName>
+    <label>bake cake</label>
+    <description>Bake cake from a combination of various ingridients.</description>
+    <jobString>Baking cake.</jobString>
+    <workSpeedStat>CookSpeed</workSpeedStat>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_CookMeal</soundWorking>
+    <allowMixingIngredients>true</allowMixingIngredients>
+    <ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass>
+    <ingredients Inherit="False">
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Flour</li>
+          </thingDefs>
+        </filter>
+        <count>0.5</count>
+      </li>
+      <li>
+        <filter>
+          <categories>
+            <li>EggsFertilized</li>
+            <li>EggsUnfertilized</li>
+          </categories>
+        </filter>
+        <count>0.25</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Milk</li>
+          </thingDefs>
+        </filter>
+        <count>0.25</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Chocolate</li>
+          </thingDefs>
+        </filter>
+        <count>0.5</count>
+      </li>
+    </ingredients>
+    <products>
+      <VLW_Cake>10</VLW_Cake>
+    </products>
+    <fixedIngredientFilter Inherit="False">
+      <categories>
+        <li>EggsFertilized</li>
+        <li>EggsUnfertilized</li>
+      </categories>
+      <thingDefs>
+        <li>Flour</li>
+        <li>Chocolate</li>
+        <li>Milk</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <defaultIngredientFilter Inherit="False">
+      <categories>
+        <li>Foods</li>
+      </categories>
+      <disallowedCategories>
+        <li>EggsFertilized</li>
+      </disallowedCategories>
+    </defaultIngredientFilter>
+    <skillRequirements>
+      <Cooking>8</Cooking>
+    </skillRequirements>
+    <researchPrerequisite>AdvancedGrainMilling</researchPrerequisite>
+  </RecipeDef>
+  <RecipeDef>
+    <defName>VLW_BakeHardtack</defName>
+    <label>bake hardtack</label>
+    <description>Bake hardtack, a simple type of cracker made from flour. It tastes bland, but lasts a very long time without refrigeration.</description>
+    <jobString>Baking hardtack.</jobString>
+    <workAmount>500</workAmount>
+    <workSpeedStat>CookSpeed</workSpeedStat>
+    <requiredGiverWorkType>Cooking</requiredGiverWorkType>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_CookMeal</soundWorking>
+    <allowMixingIngredients>true</allowMixingIngredients>
+    <ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass>
+    <ingredients Inherit="False">
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Flour</li>
+          </thingDefs>
+        </filter>
+        <count>0.50</count>
+      </li>
+    </ingredients>
+    <products>
+      <VLW_Hardtack>20</VLW_Hardtack>
+    </products>
+    <fixedIngredientFilter Inherit="False">
+      <thingDefs>
+        <li>Flour</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <skillRequirements>
+      <Cooking>3</Cooking>
+    </skillRequirements>
+    <researchPrerequisite>WheatFarming</researchPrerequisite>
+  </RecipeDef>
+</Defs>
