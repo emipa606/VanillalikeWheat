@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: bake bread -->
+  <VLW_BakeBread.label>bake bread</VLW_BakeBread.label>
+  <!-- EN: Bake bread from flour. -->
+  <VLW_BakeBread.description>Bake bread from flour.</VLW_BakeBread.description>
+  <!-- EN: Baking bread. -->
+  <VLW_BakeBread.jobString>Baking bread.</VLW_BakeBread.jobString>
+  <!-- EN: bake cake -->
+  <VLW_BakeCake.label>bake cake</VLW_BakeCake.label>
+  <!-- EN: Bake cake from a combination of various ingridients. -->
+  <VLW_BakeCake.description>Bake cake from a combination of various ingridients.</VLW_BakeCake.description>
+  <!-- EN: Baking cake. -->
+  <VLW_BakeCake.jobString>Baking cake.</VLW_BakeCake.jobString>
+  <!-- EN: bake hardtack -->
+  <VLW_BakeHardtack.label>bake hardtack</VLW_BakeHardtack.label>
+  <!-- EN: Bake hardtack, a simple type of cracker made from flour. It tastes bland, but lasts a very long time without refrigeration. -->
+  <VLW_BakeHardtack.description>Bake hardtack, a simple type of cracker made from flour. It tastes bland, but lasts a very long time without refrigeration.</VLW_BakeHardtack.description>
+  <!-- EN: Baking hardtack. -->
+  <VLW_BakeHardtack.jobString>Baking hardtack.</VLW_BakeHardtack.jobString>
+</LanguageData>

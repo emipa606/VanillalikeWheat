@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: ate bland meal -->
+  <VLW_AteBlandMeal.stages.ate_bland_meal.label>ate bland meal</VLW_AteBlandMeal.stages.ate_bland_meal.label>
+  <!-- EN: I had to eat a bland, tasteless meal. I know it keeps you alive, but it's not pleasant to eat. -->
+  <VLW_AteBlandMeal.stages.ate_bland_meal.description>I had to eat a bland, tasteless meal. I know it keeps you alive, but it's not pleasant to eat.</VLW_AteBlandMeal.stages.ate_bland_meal.description>
+  <!-- EN: ate cake -->
+  <VLW_AteYummyCake.stages.ate_cake.label>ate cake</VLW_AteYummyCake.stages.ate_cake.label>
+  <!-- EN: That cake was delicious! -->
+  <VLW_AteYummyCake.stages.ate_cake.description>That cake was delicious!</VLW_AteYummyCake.stages.ate_cake.description>
+</LanguageData>

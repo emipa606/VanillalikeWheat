@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: process a batch of wheat -->
+  <MakeBatchFlourHighTech.label>process a batch of wheat</MakeBatchFlourHighTech.label>
+  <!-- EN: Wheat can be processed to produce flour and hay. -->
+  <MakeBatchFlourHighTech.description>Wheat can be processed to produce flour and hay.</MakeBatchFlourHighTech.description>
+  <!-- EN: Processing wheat. -->
+  <MakeBatchFlourHighTech.jobString>Processing wheat.</MakeBatchFlourHighTech.jobString>
+  <!-- EN: process a batch of wheat -->
+  <MakeBatchFlourLowTech.label>process a batch of wheat</MakeBatchFlourLowTech.label>
+  <!-- EN: Wheat can be processed to produce flour and hay. -->
+  <MakeBatchFlourLowTech.description>Wheat can be processed to produce flour and hay.</MakeBatchFlourLowTech.description>
+  <!-- EN: Processing wheat. -->
+  <MakeBatchFlourLowTech.jobString>Processing wheat.</MakeBatchFlourLowTech.jobString>
+  <!-- EN: process wheat -->
+  <MakeFlourHighTech.label>process wheat</MakeFlourHighTech.label>
+  <!-- EN: Wheat can be processed to produce flour and hay. -->
+  <MakeFlourHighTech.description>Wheat can be processed to produce flour and hay.</MakeFlourHighTech.description>
+  <!-- EN: Processing wheat. -->
+  <MakeFlourHighTech.jobString>Processing wheat.</MakeFlourHighTech.jobString>
+  <!-- EN: process wheat -->
+  <MakeFlourLowTech.label>process wheat</MakeFlourLowTech.label>
+  <!-- EN: Wheat can be processed to produce flour and hay. -->
+  <MakeFlourLowTech.description>Wheat can be processed to produce flour and hay.</MakeFlourLowTech.description>
+  <!-- EN: Processing wheat. -->
+  <MakeFlourLowTech.jobString>Processing wheat.</MakeFlourLowTech.jobString>
+  <!-- EN: process one wheat -->
+  <MakeOneFlourHighTech.label>process one wheat</MakeOneFlourHighTech.label>
+  <!-- EN: Wheat can be processed to produce flour and hay. -->
+  <MakeOneFlourHighTech.description>Wheat can be processed to produce flour and hay.</MakeOneFlourHighTech.description>
+  <!-- EN: Processing wheat. -->
+  <MakeOneFlourHighTech.jobString>Processing wheat.</MakeOneFlourHighTech.jobString>
+  <!-- EN: process one wheat -->
+  <MakeOneFlourLowTech.label>process one wheat</MakeOneFlourLowTech.label>
+  <!-- EN: Wheat can be processed to produce flour and hay. -->
+  <MakeOneFlourLowTech.description>Wheat can be processed to produce flour and hay.</MakeOneFlourLowTech.description>
+  <!-- EN: Processing wheat. -->
+  <MakeOneFlourLowTech.jobString>Processing wheat.</MakeOneFlourLowTech.jobString>
+</LanguageData>

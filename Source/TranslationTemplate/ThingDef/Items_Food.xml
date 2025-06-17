@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: bread -->
+  <VLW_Bread.label>bread</VLW_Bread.label>
+  <!-- EN: Bread is prepared from a dough of flour and water, usually by baking. Throughout recorded history it has been a prominent food in large parts of the world and is one of the oldest man-made foods. -->
+  <VLW_Bread.description>Bread is prepared from a dough of flour and water, usually by baking. Throughout recorded history it has been a prominent food in large parts of the world and is one of the oldest man-made foods.</VLW_Bread.description>
+  <!-- EN: cake -->
+  <VLW_Cake.label>cake</VLW_Cake.label>
+  <!-- EN: Cake is a form of sweet dessert that is typically baked. In its oldest forms, cakes were modifications of breads; typical cake ingredients are flour, eggs, a liquid and leavening agents, such as baking soda or baking powder.\nCommon additional ingredients and flavourings include cocoa and extracts such as vanilla. -->
+  <VLW_Cake.description>Cake is a form of sweet dessert that is typically baked. In its oldest forms, cakes were modifications of breads; typical cake ingredients are flour, eggs, a liquid and leavening agents, such as baking soda or baking powder.
+Common additional ingredients and flavourings include cocoa and extracts such as vanilla.</VLW_Cake.description>
+  <!-- EN: hardtack -->
+  <VLW_Hardtack.label>hardtack</VLW_Hardtack.label>
+  <!-- EN: Hardtack is a simple type of biscuit or cracker, made from flour, water, and sometimes salt. While inexpensive and long-lasting, it tastes really bland. Used for sustenance in the absence of perishable foods, commonly during long sea voyages, land migrations, and military campaigns. -->
+  <VLW_Hardtack.description>Hardtack is a simple type of biscuit or cracker, made from flour, water, and sometimes salt. While inexpensive and long-lasting, it tastes really bland. Used for sustenance in the absence of perishable foods, commonly during long sea voyages, land migrations, and military campaigns.</VLW_Hardtack.description>
+</LanguageData>

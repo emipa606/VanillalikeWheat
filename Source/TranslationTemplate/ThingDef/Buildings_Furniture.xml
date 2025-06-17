@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: straw animal nest -->
+  <VLW_AnimalBedNest.label>straw animal nest</VLW_AnimalBedNest.label>
+  <!-- EN: Straw nest for animals to sleep in. Fits smaller animals like chickens, cats, or small dogs. -->
+  <VLW_AnimalBedNest.description>Straw nest for animals to sleep in. Fits smaller animals like chickens, cats, or small dogs.</VLW_AnimalBedNest.description>
+  <!-- EN: straw animal bed -->
+  <VLW_AnimalBedStraw.label>straw animal bed</VLW_AnimalBedStraw.label>
+  <!-- EN: Straw bed for animals to sleep on. Fits any animal. -->
+  <VLW_AnimalBedStraw.description>Straw bed for animals to sleep on. Fits any animal.</VLW_AnimalBedStraw.description>
+</LanguageData>

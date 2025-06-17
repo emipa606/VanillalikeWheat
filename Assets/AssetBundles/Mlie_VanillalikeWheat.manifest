@@ -1,0 +1,79 @@
+ManifestFileVersion: 0
+CRC: 2926988905
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 8fc4b6ca75654c9e1278964dfd782a32
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: ce3b6d18a872ca8039cd5eb3c4fb7ef5
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 8fc4b6ca75654c9e1278964dfd782a32
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 83
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Data/Mlie.VanillalikeWheat/Textures/Things/Buildings/Oven/Electric/Moven_south.png
+- Assets/Data/Mlie.VanillalikeWheat/Textures/Things/Buildings/Rack/Rack_east.png
+- Assets/Data/Mlie.VanillalikeWheat/Textures/Things/Buildings/Bed/Bed_east.png
+- Assets/Data/Mlie.VanillalikeWheat/Textures/Things/Hardtack/Hardtack_a.png
+- Assets/Data/Mlie.VanillalikeWheat/Textures/Things/Buildings/Oven/Fueled/Oven_eastm.png
+- Assets/Data/Mlie.VanillalikeWheat/Textures/Things/Cake/Cake_b.png
+- Assets/Data/Mlie.VanillalikeWheat/Textures/Things/Buildings/Oven/Fueled/Oven_north.png
+- Assets/Data/Mlie.VanillalikeWheat/Textures/Things/Buildings/Oven/Electric/Moven_north.png
+- Assets/Data/Mlie.VanillalikeWheat/Textures/Things/Buildings/Rack/RackHay_east.png
+- Assets/Data/Mlie.VanillalikeWheat/Textures/Things/WheatStack/Wheat_2.png
+- Assets/Data/Mlie.VanillalikeWheat/Textures/Things/Buildings/Oven/Fueled/Oven_south.png
+- Assets/Data/Mlie.VanillalikeWheat/Textures/Things/Flour/Flour_3.png
+- Assets/Data/Mlie.VanillalikeWheat/Textures/Things/Cake/Cake_c.png
+- Assets/Data/Mlie.VanillalikeWheat/Textures/Things/Buildings/Rack/Rack_north.png
+- Assets/Data/Mlie.VanillalikeWheat/Textures/Things/Buildings/Oven/Fueled/Oven_west.png
+- Assets/Data/Mlie.VanillalikeWheat/Textures/Things/Buildings/Bed/Bed_west.png
+- Assets/Data/Mlie.VanillalikeWheat/Textures/Things/Flour/Flour_1.png
+- Assets/Data/Mlie.VanillalikeWheat/Textures/Things/Buildings/Querns/QuernLowTech_south.png
+- Assets/Data/Mlie.VanillalikeWheat/Textures/Things/Buildings/Querns/QuernHighTech_north.png
+- Assets/Data/Mlie.VanillalikeWheat/Textures/Things/Bread/Bread_c.png
+- Assets/Data/Mlie.VanillalikeWheat/Textures/Things/Buildings/Rack/Rack_south.png
+- Assets/Data/Mlie.VanillalikeWheat/Textures/Things/Buildings/Rack/RackHay_south.png
+- Assets/Data/Mlie.VanillalikeWheat/Textures/Things/Buildings/Nest/Nest_west.png
+- Assets/Data/Mlie.VanillalikeWheat/Textures/Things/Buildings/Oven/Fueled/Oven_northm.png
+- Assets/Data/Mlie.VanillalikeWheat/Textures/Things/flour_ui.png
+- Assets/Data/Mlie.VanillalikeWheat/Textures/Things/Buildings/Oven/Fueled/Oven_westm.png
+- Assets/Data/Mlie.VanillalikeWheat/Textures/Things/Buildings/Querns/QuernLowTech_southm.png
+- Assets/Data/Mlie.VanillalikeWheat/Textures/Things/Buildings/Oven/Fueled/Oven_southm.png
+- Assets/Data/Mlie.VanillalikeWheat/Textures/Things/Buildings/Bed/Bed_south.png
+- Assets/Data/Mlie.VanillalikeWheat/Textures/Things/Buildings/Bed/Bed_north.png
+- Assets/Data/Mlie.VanillalikeWheat/Textures/Things/Buildings/Querns/QuernLowTech_north.png
+- Assets/Data/Mlie.VanillalikeWheat/Textures/Things/WheatStack/Wheat_1.png
+- Assets/Data/Mlie.VanillalikeWheat/Textures/Things/Flour/Flour_2.png
+- Assets/Data/Mlie.VanillalikeWheat/Textures/Things/Buildings/Querns/QuernLowTech_east.png
+- Assets/Data/Mlie.VanillalikeWheat/Textures/Things/Plants/WheatImmature/PlantWheatImmature.png
+- Assets/Data/Mlie.VanillalikeWheat/Textures/Things/Buildings/Querns/QuernLowTech_northm.png
+- Assets/Data/Mlie.VanillalikeWheat/Textures/Things/Buildings/Rack/RackHay_north.png
+- Assets/Data/Mlie.VanillalikeWheat/Textures/Things/Buildings/Querns/QuernHighTech_south.png
+- Assets/Data/Mlie.VanillalikeWheat/Textures/Things/Bread/Bread_b.png
+- Assets/Data/Mlie.VanillalikeWheat/Textures/Things/Hardtack/Hardtack_b.png
+- Assets/Data/Mlie.VanillalikeWheat/Textures/Things/WheatStack/Wheat_3.png
+- Assets/Data/Mlie.VanillalikeWheat/Textures/Things/UI/flour_ui.png
+- Assets/Data/Mlie.VanillalikeWheat/Textures/Things/Buildings/Oven/Fueled/Oven_east.png
+- Assets/Data/Mlie.VanillalikeWheat/Textures/Things/Straw/Straw_3.png
+- Assets/Data/Mlie.VanillalikeWheat/Textures/Things/Buildings/Nest/Nest_north.png
+- Assets/Data/Mlie.VanillalikeWheat/Textures/Things/Buildings/Querns/QuernHighTech_east.png
+- Assets/Data/Mlie.VanillalikeWheat/Textures/Things/Buildings/Oven/Electric/Moven_east.png
+- Assets/Data/Mlie.VanillalikeWheat/Textures/Things/Buildings/Querns/QuernLowTech_eastm.png
+- Assets/Data/Mlie.VanillalikeWheat/Textures/Things/Bread/Bread_a.png
+- Assets/Data/Mlie.VanillalikeWheat/Textures/Things/Hardtack/Hardtack_c.png
+- Assets/Data/Mlie.VanillalikeWheat/Textures/Things/Straw/Straw_2.png
+- Assets/Data/Mlie.VanillalikeWheat/Textures/Things/Cake/Cake_a.png
+- Assets/Data/Mlie.VanillalikeWheat/Textures/Things/Buildings/Nest/Nest_south.png
+- Assets/Data/Mlie.VanillalikeWheat/Textures/Things/Plants/WheatMature/PlantWheat.png
+- Assets/Data/Mlie.VanillalikeWheat/Textures/Things/Buildings/Nest/Nest_east.png
+- Assets/Data/Mlie.VanillalikeWheat/Sounds/quern_working/quern_working.mp3
+- Assets/Data/Mlie.VanillalikeWheat/Textures/Things/Straw/Straw_1.png
+- Assets/Data/Mlie.VanillalikeWheat/Textures/Things/GrainOLD.png
+Dependencies: []

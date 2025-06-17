@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: process wheat -->
+  <MillGrain.label>process wheat</MillGrain.label>
+  <!-- EN: processing -->
+  <MillGrain.gerund>processing</MillGrain.gerund>
+  <!-- EN: process -->
+  <MillGrain.verb>process</MillGrain.verb>
+  <!-- EN: bake at oven -->
+  <VLW_DoBillsBake.label>bake at oven</VLW_DoBillsBake.label>
+  <!-- EN: baking -->
+  <VLW_DoBillsBake.gerund>baking</VLW_DoBillsBake.gerund>
+  <!-- EN: bake -->
+  <VLW_DoBillsBake.verb>bake</VLW_DoBillsBake.verb>
+</LanguageData>

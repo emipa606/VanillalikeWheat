@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: advanced grain processing -->
+  <AdvancedGrainMilling.label>advanced grain processing</AdvancedGrainMilling.label>
+  <!-- EN: Allows construction of advanced milling machine and electric oven for greater efficiency. -->
+  <AdvancedGrainMilling.description>Allows construction of advanced milling machine and electric oven for greater efficiency.</AdvancedGrainMilling.description>
+  <!-- EN: wheat farming -->
+  <WheatFarming.label>wheat farming</WheatFarming.label>
+  <!-- EN: Allows agriculture and basic processing of wheat. -->
+  <WheatFarming.description>Allows agriculture and basic processing of wheat.</WheatFarming.description>
+</LanguageData>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: wheat -->
+  <RawWheat.label>wheat</RawWheat.label>
+  <!-- EN: Raw wheat consisting of straw and grain. Needs to be processed. -->
+  <RawWheat.description>Raw wheat consisting of straw and grain. Needs to be processed.</RawWheat.description>
+  <!-- EN: straw -->
+  <Straw.label>straw</Straw.label>
+  <!-- EN: Dried stalks of grain, used especially as fodder, harvested and compacted for storage. Straw is good animal feed, but inedible for humans. -->
+  <Straw.description>Dried stalks of grain, used especially as fodder, harvested and compacted for storage. Straw is good animal feed, but inedible for humans.</Straw.description>
+</LanguageData>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: wheat plant -->
+  <PlantWheat.label>wheat plant</PlantWheat.label>
+  <!-- EN: A thin, fragile grain plant which produces small yellow seeds. Takes a relatively long time to grow and yields lots of food, but requires further processing to be eatable. Needs fertile soil to grow well. -->
+  <PlantWheat.description>A thin, fragile grain plant which produces small yellow seeds. Takes a relatively long time to grow and yields lots of food, but requires further processing to be eatable. Needs fertile soil to grow well.</PlantWheat.description>
+</LanguageData>

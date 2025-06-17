@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: hay rack -->
+  <HayRack.label>hay rack</HayRack.label>
+  <!-- EN: A simple rack for drying hay into straw. -->
+  <HayRack.description>A simple rack for drying hay into straw.</HayRack.description>
+  <!-- EN: milling machine -->
+  <QuernHighTech.label>milling machine</QuernHighTech.label>
+  <!-- EN: Electric variant of the milling stone. Require electricity to operate, but it takes a very short time to process wheat. Very efficeint. -->
+  <QuernHighTech.description>Electric variant of the milling stone. Require electricity to operate, but it takes a very short time to process wheat. Very efficeint.</QuernHighTech.description>
+  <!-- EN: milling stone -->
+  <QuernLowTech.label>milling stone</QuernLowTech.label>
+  <!-- EN: Basic milling stone. Does not require electricity nor fuel to operate, but it takes long time to process wheat. -->
+  <QuernLowTech.description>Basic milling stone. Does not require electricity nor fuel to operate, but it takes long time to process wheat.</QuernLowTech.description>
+  <!-- EN: electric oven -->
+  <VLW_ElectricOven.label>electric oven</VLW_ElectricOven.label>
+  <!-- EN: An electric oven for baking bread and cake. -->
+  <VLW_ElectricOven.description>An electric oven for baking bread and cake.</VLW_ElectricOven.description>
+  <!-- EN: fueled oven -->
+  <VLW_FueledOven.label>fueled oven</VLW_FueledOven.label>
+  <!-- EN: A wood-fueled oven for baking bread. -->
+  <VLW_FueledOven.description>A wood-fueled oven for baking bread.</VLW_FueledOven.description>
+</LanguageData>
