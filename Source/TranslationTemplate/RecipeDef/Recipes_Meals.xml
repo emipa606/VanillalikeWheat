@@ -6,6 +6,12 @@
   <VLW_BakeBread.description>Bake bread from flour.</VLW_BakeBread.description>
   <!-- EN: Baking bread. -->
   <VLW_BakeBread.jobString>Baking bread.</VLW_BakeBread.jobString>
+  <!-- EN: bake bread (x4) -->
+  <VLW_BakeBreadBulk.label>bake bread (x4)</VLW_BakeBreadBulk.label>
+  <!-- EN: Bake four bread from flour. -->
+  <VLW_BakeBreadBulk.description>Bake four bread from flour.</VLW_BakeBreadBulk.description>
+  <!-- EN: Baking four bread. -->
+  <VLW_BakeBreadBulk.jobString>Baking four bread.</VLW_BakeBreadBulk.jobString>
   <!-- EN: bake cake -->
   <VLW_BakeCake.label>bake cake</VLW_BakeCake.label>
   <!-- EN: Bake cake from a combination of various ingridients. -->

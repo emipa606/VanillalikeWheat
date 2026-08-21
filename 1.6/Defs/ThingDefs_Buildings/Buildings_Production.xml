@@ -243,6 +243,7 @@
     <recipes>
       <li>VLW_BakeHardtack</li>
       <li>VLW_BakeBread</li>
+      <li>VLW_BakeBreadBulk</li>
       <li>VLW_BakeCake</li>
     </recipes>
     <inspectorTabs>

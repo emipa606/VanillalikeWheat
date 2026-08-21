@@ -1,5 +1,8 @@
 # Changelog for VanillalikeWheat
 
+1.6.1 - Added bulk bread recipe to the electric oven
+
+
 1.6.0 - Mod updated for 1.6 and passed autotests
 
 

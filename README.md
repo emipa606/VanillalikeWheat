@@ -1,6 +1,6 @@
 # [Vanilla-like wheat (Continued)](https://steamcommunity.com/sharedfiles/filedetails/?id=2717707382)
 
-![Image](https://i.imgur.com/buuPQel.png)
+![Image](https://img.litet.net/logos/Info.png)
 
 Update of Dark_Inquisitors mod
 https://steamcommunity.com/sharedfiles/filedetails/?id=1522917562
@@ -19,9 +19,9 @@ OptimalityOffset: Hardtack: -5 === 40 (still lower then jelly/berries/pemmican b
 Bread: -2 === 14 (2 less then simple meals, pawns won't walk far to get simple meal instead of bread)
 Also fixes hopper bug.
 
-![Image](https://i.imgur.com/pufA0kM.png)
+![Image](https://img.litet.net/logos/Notice.png)
 	
-![Image](https://i.imgur.com/Z4GOv8H.png)
+![Image](https://img.litet.net/logos/OriginalDescription.png)
 
 A mod that adds wheat plant, its processing chain and some additional goods made out of flour.
 
@@ -75,13 +75,13 @@ Mod-added items:
 
 This mod uses Universal Fermenter mod, originally written by Kubouch, updated to B19 by Syrchalis.
 
-![Image](https://i.imgur.com/PwoNOj4.png)
+![Image](https://img.litet.net/logos/ReportingIssues.png)
 
 
 
 -  See if the the error persists if you just have this mod and its requirements active.
 -  If not, try adding your other mods until it happens again.
--  Post your error-log using [HugsLib](https://steamcommunity.com/workshop/filedetails/?id=818773962) or the standalone [Uploader](https://steamcommunity.com/sharedfiles/filedetails/?id=2873415404) and command Ctrl+F12
+-  Always post your log using the [Log Uploader](https://steamcommunity.com/sharedfiles/filedetails/?id=2873415404)
 -  For best support, please use the Discord-channel for error-reporting.
 -  Do not report errors by making a discussion-thread, I get no notification of that.
 -  If you have the solution for a problem, please post it to the GitHub repository.
@@ -89,4 +89,4 @@ This mod uses Universal Fermenter mod, originally written by Kubouch, updated to
 
  
 
-[![Image](https://img.shields.io/github/v/release/emipa606/VanillalikeWheat?label=latest%20version&style=plastic&color=9f1111&labelColor=black)](https://steamcommunity.com/sharedfiles/filedetails/changelog/2717707382) | tags:  farming,  crops
+[![Image](https://img.shields.io/github/v/release/emipa606/VanillalikeWheat?label=latest%20version&style=plastic&color=9f1111&labelColor=black)](https://steamcommunity.com/sharedfiles/filedetails/changelog/2717707382) | crops, farming
